@@ -5,10 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #navbar{
+            width: 95%;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+        }
+        #left{
+            width: 20%;
+            
+        }
+        #left>img{
+            width: 100%;
+            margin-top: 20px;
+        }
+        #right{
+            border: 1px solid red;
+            width: 69%;
+            
+        }
+
+        #ru{
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid red;
+            margin-left: 30%;
+            height: 50%;
+        }
+        #rd{
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid green;
+            height: 50%;
+        }
+        #search>img{
+            width: 22px;
+            margin-top: 2px;
+        }
+        .lift{
+            margin-top: -2%;
+        }
+
+    </style>
+
+
 </head>
 <body>
-    <div>
-        <p>hello</p>
+    <div id="navbar">
+        <div id="left">
+            <img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png" alt="logo">
+        </div>
+        <div id="right">
+            <div id="ru">
+                <p>Save $3 with App</p>
+                <p>Support Center</p>
+                <p>Ship to</p>
+                <p>Language</p>
+                <p>Country Website</p>
+
+            </div>
+
+            <div id="rd">
+                <div id="search">
+                    <input type="text" placeholder="search">
+                    <img src="http://www.factorydata.com/wp-content/uploads/2021/05/buscador.png" alt="">
+                </div>
+                <div class="lift">
+                    <img src="" alt="">
+                    <p>Sign in</p>
+
+                </div>
+                <div class="lift">
+                    <img src="" alt="">
+                    <p> Favorites</p>
+                </div>
+                <div class="lift">
+                    <img src="" alt="">
+                    <p>Cart</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        
     </div>
     
 </body>
