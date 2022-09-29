@@ -1,0 +1,41 @@
+.maingrid{
+   
+    height: 50px;
+    display: flex;
+   
+    
+}
+.maingrid>h2{
+    margin-left: 10px;
+    font-size: 20px;
+ 
+    margin-top: 23px;
+    
+}
+.bag{
+    
+    width: 30px;
+    margin-top: 20px;
+    height: 25px;
+    font-size: 25px;
+}
+#maingrid{
+    width: 95%;
+    margin: auto;
+}
+#mainlines{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+
+#mainlines>div>img{
+    width: 100%;
+}
+#mainlines>div>p:nth-child(4){
+    color: red;
+    
+    width: 40%;
+    text-align: center;
+    background-color: rgb(255,237,241);
+}
