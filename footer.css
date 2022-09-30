@@ -1,0 +1,128 @@
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #footer{
+            width: 92%;
+            margin: auto;
+        }
+        #imghead{
+            
+            margin: auto;
+            display: flex;
+            height: 150px;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            
+           
+        }
+        #imghead>div+div{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            margin-left: 50px;
+            gap: 30px;
+          
+            justify-content: space-around;
+            width: 70%;
+
+
+        }
+        #imghead>div:nth-child(1){
+            
+            width: 18%;
+            margin-left: 7%;
+            padding-bottom: -10%;
+            margin-top: 15px;
+            
+        }
+        #imghead>div+div>div>p{
+            font-size: 14px;
+            margin-top: -11%;
+
+        }
+        
+        .logo{
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        #social{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5%;
+            
+            height: 50px;
+            align-items: center;
+        }
+
+        #newsletter{
+            display: flex;
+            align-items: center;
+            width: 43%;
+            justify-content: space-between;
+        }
+        #newsletter>div{
+            display: flex;
+            text-align: center;
+            
+        }
+        #newsletter>div>input{
+            width: 300px;
+            height: 30px;
+        }
+        #newsletter>div>div{
+           background-color: black;
+            width: 120px;
+            color: white;
+            height: 37px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        #sociallogo{
+           
+            width: 40%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 30px;
+            align-items: center;
+        }
+        #service{
+            display:flex;
+            justify-content: space-between;
+            margin-top: 3%;
+        }
+        #service>div>div>p{
+            font-size: 13px;
+            margin-top: -8px;
+        }
+        #logo1{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 3%;
+        }
+        #logo1>img{
+            height: 30px;
+        }
+        #logo2{
+            display: flex;
+            justify-content: space-around;
+            
+            width: 50%;
+            margin: auto;
+            margin-top: 1%;
+
+        }
+        #logo2>img{
+            height: 30px;
+        }
+        #last{
+            border: 1px solid black;
+            font-size: small;
+            text-align: center;
+            margin-top: 5%;
+            color: white;
+            background-color: black;
+        }
+    
