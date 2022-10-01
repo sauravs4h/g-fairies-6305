@@ -39,3 +39,6 @@
     text-align: center;
     background-color: rgb(255,237,241);
 }
+#mainlines>div>h2{
+    color: red;
+}
