@@ -235,4 +235,17 @@ let productdata=[
 
             card.append(productimg,productname,productprice,flesh_sal)
 
+            card.addEventListener("click",function(){
+                buy(el)
+            })
+
         })
+
+       
+
+       
+
+        function buy(el){
+            window.location.href = 'buy.html';
+            localStorage.setItem("buy",JSON.stringify(el))
+        }
