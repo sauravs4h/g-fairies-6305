@@ -1,0 +1,96 @@
+#navbar{
+    width: 95%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#left{
+    width: 20%;
+    
+}
+#left>img{
+    width: 100%;
+    margin-top: 20px;
+}
+#right{
+    
+    width: 69%;
+    
+}
+
+#ru{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    
+    margin-left: 20%;
+    height: 50%;
+    margin-top: -10px;
+}
+#rd{
+    display: flex;
+    justify-content: space-between;
+   
+    /* height: 50%; */
+}
+
+#lift{
+    margin-top: -2%;
+    display: flex;
+    
+}
+
+#lift{
+    width: 40%;
+    justify-content: space-around;
+    /* margin-left: 40%; */
+}
+#search{
+    width: 56%;
+    border: 3px solid rgb(255,218,0);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+#search>input{
+    width: 90%;
+    height: 90%;
+    border-radius: 40px 0 0 40px;
+    border: 0px solid white;
+   
+    
+}
+#searchicon{
+    width: 42px;
+    height: 100%;
+    border-radius: 0 40px 40px 0;
+    background-color: rgb(255,218,0) ;
+   
+}
+.icon{
+    margin-top: 13px;
+    margin-left: 10px;
+}
+#ru>div{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 19%;
+    font-size: 15px;
+}
+#ru>div>i{
+    margin-top: 15px;
+}
+#lift>div{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+    margin-top: 5%;
+    width: 25%;
+
+}
+#lift>div>i{
+    margin-top: 15px;
+}
